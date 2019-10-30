@@ -143,9 +143,9 @@ def click_next(driver=driver):
 
 profiles_dic = {}
 
-
+end = 20
 # could just do this:
-for i in range(1,100):
+for i in range(1,end):
     print(i)
     time.sleep(random.randint(1,4))
     profiles_dic.update(get_profile_info())
@@ -180,8 +180,3 @@ df.to_excel('file.xls')
 # f.write(soup_level1.prettify())
 #
 # soup_level2=BeautifulSoup(driver.page_source, 'lxml')
-
-
-
-
-
