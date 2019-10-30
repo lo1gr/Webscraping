@@ -1,2 +1,2 @@
-username = "louis.gruand@free.fr"
-password = "970118"
+username = ""
+password = ""
